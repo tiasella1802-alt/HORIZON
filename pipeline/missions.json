@@ -1,0 +1,57 @@
+{
+  "_note": "Real south-polar landings replayed through HORIZON. Coordinates, times and outcomes are from the cited sources (read 2026-10-31). Event times marked date_only are known to the day, not the hour. Each replay starts at the landing hour and runs for `days`.",
+  "missions": [
+    {
+      "id": "chandrayaan-3",
+      "name": "Chandrayaan-3 · Vikram",
+      "agency": "ISRO (India)",
+      "lat": -69.3741, "lon": 32.32,
+      "landed": "2023-08-23T12:33:00Z",
+      "days": 32, "view_days": 32,
+      "outcome": "Worked through one lunar day near 69°S, was put to sleep ahead of the lunar night, and never woke up.",
+      "events": [
+        {"t": "2023-09-04T12:00:00Z", "date_only": true, "label": "Put to sleep ahead of lunar night"},
+        {"t": "2023-09-22T12:00:00Z", "date_only": true, "label": "Wake-up attempt at sunrise: no signal"}
+      ],
+      "sources": [
+        {"label": "Landing site (NASA LROC)", "url": "https://lroc.im-ldi.com/images/1314"},
+        {"label": "Landing time", "url": "https://en.wikipedia.org/wiki/Chandrayaan-3"},
+        {"label": "Sleep and wake-up attempt", "url": "https://www.tribuneindia.com/news/india/isro-makes-attempt-to-wake-up-chandrayaan-3s-lander-rover-no-signals-from-them-so-far-546808"}
+      ]
+    },
+    {
+      "id": "im-1",
+      "name": "IM-1 · Odysseus",
+      "agency": "Intuitive Machines / NASA CLPS",
+      "lat": -80.13, "lon": 1.44,
+      "landed": "2024-02-22T23:23:00Z",
+      "days": 32, "view_days": 12,
+      "outcome": "Tipped onto its side on a 12° slope near Malapert A, worked for about a week, and fell silent on 29 February as the Sun sank toward the horizon. It was not built to survive the night.",
+      "events": [
+        {"t": "2024-02-29T12:00:00Z", "date_only": true, "label": "Last contact"}
+      ],
+      "sources": [
+        {"label": "Site, landing time, last contact", "url": "https://en.wikipedia.org/wiki/IM-1"},
+        {"label": "Radio silence after night", "url": "https://www.leonarddavid.com/commercial-moon-lander-odysseus-radio-silence-no-call-home/"}
+      ]
+    },
+    {
+      "id": "im-2",
+      "name": "IM-2 · Athena",
+      "agency": "Intuitive Machines / NASA CLPS",
+      "lat": -84.7906, "lon": 29.1957,
+      "landed": "2025-03-06T17:28:50Z",
+      "days": 32, "view_days": 3,
+      "crater_m": 20,
+      "outcome": "Came down on its side inside a 20 m crater near Mons Mouton. With the Sun this low, its panels could not recharge and the batteries ran down in about 13 hours.",
+      "events": [
+        {"t": "2025-03-07T06:30:00Z", "date_only": false, "label": "Batteries depleted (~13 h after landing)"}
+      ],
+      "sources": [
+        {"label": "Resting place in a 20 m crater (NASA LROC)", "url": "https://lroc.im-ldi.com/images/1408"},
+        {"label": "Mission end: Sun direction, panels, cold", "url": "https://spaceflightnow.com/2025/03/07/intuitive-machines-im-2-mission-ends-with-lander-on-its-side-on-the-moon/"},
+        {"label": "Landing time", "url": "https://en.wikipedia.org/wiki/IM-2"}
+      ]
+    }
+  ]
+}

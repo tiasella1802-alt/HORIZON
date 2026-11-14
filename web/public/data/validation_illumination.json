@@ -1,0 +1,1629 @@
+{
+ "reference": "NASA GSFC / LOLA average solar and Earth visibility maps (Mazarico et al. 2011), PDS LOLA EXTRAS/ILLUMINATION",
+ "products": [
+  "AVGVISIB_85S_060M_201608",
+  "AVGVISIB_75S_120M_201608",
+  "AVGVISIB_85S_060M_201608_EARTH",
+  "AVGVISIB_75S_120M_201608_EARTH"
+ ],
+ "definition": "fraction of time any part of the disk is above the local horizon",
+ "window": "2009-07-01T00:00:00Z + 18.6 years, every 2.0 h",
+ "summary": {
+  "sun": {
+   "r": 0.9918,
+   "median_abs_diff": 0.0024,
+   "mean_diff": 0.01,
+   "p90_abs_diff": 0.0371,
+   "n": 160
+  },
+  "earth": {
+   "r": 0.9934,
+   "median_abs_diff": 0.0011,
+   "mean_diff": 0.0066,
+   "p90_abs_diff": 0.0348,
+   "n": 160
+  }
+ },
+ "rows": [
+  {
+   "name": "Lunar South Pole",
+   "site": true,
+   "lat": -90.0,
+   "lon": 0.0,
+   "ours_sun": 0.2691,
+   "nasa_sun": 0.1349,
+   "ours_earth": 0.2315,
+   "nasa_earth": 0.1192
+  },
+  {
+   "name": "Shackleton rim high point",
+   "site": true,
+   "lat": -89.7778,
+   "lon": -156.3108,
+   "ours_sun": 0.7693,
+   "nasa_sun": 0.6539,
+   "ours_earth": 0.5282,
+   "nasa_earth": 0.5091
+  },
+  {
+   "name": "de Gerlache rim high point",
+   "site": true,
+   "lat": -88.6678,
+   "lon": -68.3837,
+   "ours_sun": 0.8144,
+   "nasa_sun": 0.7313,
+   "ours_earth": 0.6151,
+   "nasa_earth": 0.5804
+  },
+  {
+   "name": "Slater rim high point",
+   "site": true,
+   "lat": -87.6927,
+   "lon": 114.572,
+   "ours_sun": 0.5998,
+   "nasa_sun": 0.5294,
+   "ours_earth": 0.4908,
+   "nasa_earth": 0.4847
+  },
+  {
+   "name": "Shoemaker rim high point",
+   "site": true,
+   "lat": -87.2053,
+   "lon": 44.4028,
+   "ours_sun": 0.267,
+   "nasa_sun": 0.2341,
+   "ours_earth": 0.455,
+   "nasa_earth": 0.4534
+  },
+  {
+   "name": "Haworth rim high point",
+   "site": true,
+   "lat": -86.6523,
+   "lon": 5.1924,
+   "ours_sun": 0.263,
+   "nasa_sun": 0.2259,
+   "ours_earth": 0.2393,
+   "nasa_earth": 0.2414
+  },
+  {
+   "name": "Mons Malapert summit",
+   "site": true,
+   "lat": -85.9875,
+   "lon": 2.0959,
+   "ours_sun": 0.5548,
+   "nasa_sun": 0.5525,
+   "ours_earth": 0.8512,
+   "nasa_earth": 0.8058
+  },
+  {
+   "name": "Faustini rim high point",
+   "site": true,
+   "lat": -86.4893,
+   "lon": 80.4675,
+   "ours_sun": 0.5911,
+   "nasa_sun": 0.5259,
+   "ours_earth": 0.5052,
+   "nasa_earth": 0.5042
+  },
+  {
+   "name": "Mons Mouton summit",
+   "site": true,
+   "lat": -84.6732,
+   "lon": 39.4034,
+   "ours_sun": 0.5683,
+   "nasa_sun": 0.5298,
+   "ours_earth": 0.7926,
+   "nasa_earth": 0.7377
+  },
+  {
+   "name": "Mons Cabeus summit",
+   "site": true,
+   "lat": -83.6086,
+   "lon": -34.0279,
+   "ours_sun": 0.6234,
+   "nasa_sun": 0.5715,
+   "ours_earth": 0.9488,
+   "nasa_earth": 0.895
+  },
+  {
+   "name": "random 1",
+   "site": false,
+   "lat": -87.8836,
+   "lon": 149.2042,
+   "ours_sun": 0.419,
+   "nasa_sun": 0.4161,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 2",
+   "site": false,
+   "lat": -86.0003,
+   "lon": -65.2385,
+   "ours_sun": 0.3117,
+   "nasa_sun": 0.2982,
+   "ours_earth": 0.5287,
+   "nasa_earth": 0.4821
+  },
+  {
+   "name": "random 3",
+   "site": false,
+   "lat": -86.5819,
+   "lon": 30.9202,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.2516,
+   "nasa_earth": 0.2479
+  },
+  {
+   "name": "random 4",
+   "site": false,
+   "lat": -86.9561,
+   "lon": -94.0519,
+   "ours_sun": 0.3746,
+   "nasa_sun": 0.3525,
+   "ours_earth": 0.5435,
+   "nasa_earth": 0.5406
+  },
+  {
+   "name": "random 5",
+   "site": false,
+   "lat": -87.0208,
+   "lon": 60.4728,
+   "ours_sun": 0.2858,
+   "nasa_sun": 0.2368,
+   "ours_earth": 0.3347,
+   "nasa_earth": 0.334
+  },
+  {
+   "name": "random 6",
+   "site": false,
+   "lat": -85.5545,
+   "lon": -134.0437,
+   "ours_sun": 0.2666,
+   "nasa_sun": 0.2622,
+   "ours_earth": 0.0003,
+   "nasa_earth": 0.0004
+  },
+  {
+   "name": "random 7",
+   "site": false,
+   "lat": -85.2431,
+   "lon": 104.3314,
+   "ours_sun": 0.4338,
+   "nasa_sun": 0.3991,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 8",
+   "site": false,
+   "lat": -87.8929,
+   "lon": -27.7394,
+   "ours_sun": 0.1702,
+   "nasa_sun": 0.1699,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 9",
+   "site": false,
+   "lat": -85.9603,
+   "lon": -113.8823,
+   "ours_sun": 0.1254,
+   "nasa_sun": 0.1279,
+   "ours_earth": 0.4615,
+   "nasa_earth": 0.4715
+  },
+  {
+   "name": "random 10",
+   "site": false,
+   "lat": -87.2685,
+   "lon": 92.9698,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.3766,
+   "nasa_earth": 0.376
+  },
+  {
+   "name": "random 11",
+   "site": false,
+   "lat": -85.0833,
+   "lon": 19.5417,
+   "ours_sun": 0.1939,
+   "nasa_sun": 0.194,
+   "ours_earth": 0.1603,
+   "nasa_earth": 0.1487
+  },
+  {
+   "name": "random 12",
+   "site": false,
+   "lat": -85.2046,
+   "lon": -22.2678,
+   "ours_sun": 0.4128,
+   "nasa_sun": 0.3734,
+   "ours_earth": 0.8112,
+   "nasa_earth": 0.7912
+  },
+  {
+   "name": "random 13",
+   "site": false,
+   "lat": -86.0129,
+   "lon": -93.3746,
+   "ours_sun": 0.317,
+   "nasa_sun": 0.3166,
+   "ours_earth": 0.4694,
+   "nasa_earth": 0.4683
+  },
+  {
+   "name": "random 14",
+   "site": false,
+   "lat": -85.662,
+   "lon": 101.2917,
+   "ours_sun": 0.5751,
+   "nasa_sun": 0.544,
+   "ours_earth": 0.4445,
+   "nasa_earth": 0.3759
+  },
+  {
+   "name": "random 15",
+   "site": false,
+   "lat": -86.4112,
+   "lon": -48.4974,
+   "ours_sun": 0.2808,
+   "nasa_sun": 0.2776,
+   "ours_earth": 0.5668,
+   "nasa_earth": 0.566
+  },
+  {
+   "name": "random 16",
+   "site": false,
+   "lat": -85.4561,
+   "lon": -164.4874,
+   "ours_sun": 0.3936,
+   "nasa_sun": 0.3915,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 17",
+   "site": false,
+   "lat": -86.6517,
+   "lon": 167.5329,
+   "ours_sun": 0.3246,
+   "nasa_sun": 0.2341,
+   "ours_earth": 0.0119,
+   "nasa_earth": 0.0115
+  },
+  {
+   "name": "random 18",
+   "site": false,
+   "lat": -87.0891,
+   "lon": -169.0327,
+   "ours_sun": 0.3319,
+   "nasa_sun": 0.3291,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 19",
+   "site": false,
+   "lat": -87.3634,
+   "lon": -136.6311,
+   "ours_sun": 0.2671,
+   "nasa_sun": 0.2672,
+   "ours_earth": 0.1675,
+   "nasa_earth": 0.1711
+  },
+  {
+   "name": "random 20",
+   "site": false,
+   "lat": -87.6202,
+   "lon": -12.3075,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.2797,
+   "nasa_earth": 0.2785
+  },
+  {
+   "name": "random 21",
+   "site": false,
+   "lat": -86.3742,
+   "lon": -105.1722,
+   "ours_sun": 0.2864,
+   "nasa_sun": 0.2863,
+   "ours_earth": 0.4495,
+   "nasa_earth": 0.4483
+  },
+  {
+   "name": "random 22",
+   "site": false,
+   "lat": -86.7175,
+   "lon": -59.3514,
+   "ours_sun": 0.2572,
+   "nasa_sun": 0.2409,
+   "ours_earth": 0.3854,
+   "nasa_earth": 0.2646
+  },
+  {
+   "name": "random 23",
+   "site": false,
+   "lat": -85.9282,
+   "lon": 24.3235,
+   "ours_sun": 0.1214,
+   "nasa_sun": 0.1211,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 24",
+   "site": false,
+   "lat": -89.4249,
+   "lon": 164.8231,
+   "ours_sun": 0.4255,
+   "nasa_sun": 0.3816,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 25",
+   "site": false,
+   "lat": -86.6542,
+   "lon": 157.0724,
+   "ours_sun": 0.381,
+   "nasa_sun": 0.3846,
+   "ours_earth": 0.2964,
+   "nasa_earth": 0.2915
+  },
+  {
+   "name": "random 26",
+   "site": false,
+   "lat": -86.978,
+   "lon": -153.3974,
+   "ours_sun": 0.1578,
+   "nasa_sun": 0.1491,
+   "ours_earth": 0.4248,
+   "nasa_earth": 0.4239
+  },
+  {
+   "name": "random 27",
+   "site": false,
+   "lat": -87.7886,
+   "lon": 127.1929,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.4115,
+   "nasa_earth": 0.4107
+  },
+  {
+   "name": "random 28",
+   "site": false,
+   "lat": -86.1436,
+   "lon": -119.5835,
+   "ours_sun": 0.1865,
+   "nasa_sun": 0.1861,
+   "ours_earth": 0.1709,
+   "nasa_earth": 0.1259
+  },
+  {
+   "name": "random 29",
+   "site": false,
+   "lat": -86.7008,
+   "lon": 112.1158,
+   "ours_sun": 0.376,
+   "nasa_sun": 0.3697,
+   "ours_earth": 0.0629,
+   "nasa_earth": 0.0635
+  },
+  {
+   "name": "random 30",
+   "site": false,
+   "lat": -87.2608,
+   "lon": -73.315,
+   "ours_sun": 0.2873,
+   "nasa_sun": 0.285,
+   "ours_earth": 0.447,
+   "nasa_earth": 0.4459
+  },
+  {
+   "name": "random 31",
+   "site": false,
+   "lat": -87.7107,
+   "lon": 78.4204,
+   "ours_sun": 0.1415,
+   "nasa_sun": 0.1408,
+   "ours_earth": 0.2936,
+   "nasa_earth": 0.3014
+  },
+  {
+   "name": "random 32",
+   "site": false,
+   "lat": -85.324,
+   "lon": 78.7656,
+   "ours_sun": 0.3335,
+   "nasa_sun": 0.3332,
+   "ours_earth": 0.198,
+   "nasa_earth": 0.2015
+  },
+  {
+   "name": "random 33",
+   "site": false,
+   "lat": -85.535,
+   "lon": 126.1985,
+   "ours_sun": 0.1778,
+   "nasa_sun": 0.1848,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 34",
+   "site": false,
+   "lat": -86.1054,
+   "lon": 172.6653,
+   "ours_sun": 0.2365,
+   "nasa_sun": 0.2333,
+   "ours_earth": 0.1612,
+   "nasa_earth": 0.1619
+  },
+  {
+   "name": "random 35",
+   "site": false,
+   "lat": -87.0622,
+   "lon": -80.8269,
+   "ours_sun": 0.3567,
+   "nasa_sun": 0.3413,
+   "ours_earth": 0.4813,
+   "nasa_earth": 0.4454
+  },
+  {
+   "name": "random 36",
+   "site": false,
+   "lat": -85.1348,
+   "lon": 46.191,
+   "ours_sun": 0.0077,
+   "nasa_sun": 0.0137,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 37",
+   "site": false,
+   "lat": -86.247,
+   "lon": 86.1339,
+   "ours_sun": 0.2464,
+   "nasa_sun": 0.2505,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 38",
+   "site": false,
+   "lat": -86.7105,
+   "lon": -151.3334,
+   "ours_sun": 0.4341,
+   "nasa_sun": 0.4339,
+   "ours_earth": 0.0894,
+   "nasa_earth": 0.1023
+  },
+  {
+   "name": "random 39",
+   "site": false,
+   "lat": -85.2554,
+   "lon": 58.6661,
+   "ours_sun": 0.3565,
+   "nasa_sun": 0.3559,
+   "ours_earth": 0.3351,
+   "nasa_earth": 0.3349
+  },
+  {
+   "name": "random 40",
+   "site": false,
+   "lat": -87.1739,
+   "lon": -64.2544,
+   "ours_sun": 0.2627,
+   "nasa_sun": 0.2573,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 41",
+   "site": false,
+   "lat": -85.8287,
+   "lon": -121.8711,
+   "ours_sun": 0.2035,
+   "nasa_sun": 0.2028,
+   "ours_earth": 0.2602,
+   "nasa_earth": 0.255
+  },
+  {
+   "name": "random 42",
+   "site": false,
+   "lat": -87.1984,
+   "lon": 17.8098,
+   "ours_sun": 0.0002,
+   "nasa_sun": 0.0012,
+   "ours_earth": 0.375,
+   "nasa_earth": 0.3751
+  },
+  {
+   "name": "random 43",
+   "site": false,
+   "lat": -87.442,
+   "lon": -13.7219,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 44",
+   "site": false,
+   "lat": -85.8142,
+   "lon": 27.7487,
+   "ours_sun": 0.1243,
+   "nasa_sun": 0.1242,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 45",
+   "site": false,
+   "lat": -87.6121,
+   "lon": 51.0903,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 46",
+   "site": false,
+   "lat": -86.4888,
+   "lon": -0.4792,
+   "ours_sun": 0.2949,
+   "nasa_sun": 0.2344,
+   "ours_earth": 0.1971,
+   "nasa_earth": 0.1963
+  },
+  {
+   "name": "random 47",
+   "site": false,
+   "lat": -86.192,
+   "lon": 145.8543,
+   "ours_sun": 0.4525,
+   "nasa_sun": 0.4521,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 48",
+   "site": false,
+   "lat": -87.8255,
+   "lon": -115.9509,
+   "ours_sun": 0.206,
+   "nasa_sun": 0.2102,
+   "ours_earth": 0.0204,
+   "nasa_earth": 0.02
+  },
+  {
+   "name": "random 49",
+   "site": false,
+   "lat": -85.7244,
+   "lon": -76.035,
+   "ours_sun": 0.1422,
+   "nasa_sun": 0.1432,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 50",
+   "site": false,
+   "lat": -86.2969,
+   "lon": -51.7602,
+   "ours_sun": 0.1479,
+   "nasa_sun": 0.1476,
+   "ours_earth": 0.5397,
+   "nasa_earth": 0.5384
+  },
+  {
+   "name": "random 51",
+   "site": false,
+   "lat": -86.0582,
+   "lon": 98.7775,
+   "ours_sun": 0.1533,
+   "nasa_sun": 0.1169,
+   "ours_earth": 0.2761,
+   "nasa_earth": 0.2768
+  },
+  {
+   "name": "random 52",
+   "site": false,
+   "lat": -86.9494,
+   "lon": 54.7553,
+   "ours_sun": 0.0487,
+   "nasa_sun": 0.037,
+   "ours_earth": 0.0694,
+   "nasa_earth": 0.0589
+  },
+  {
+   "name": "random 53",
+   "site": false,
+   "lat": -86.7586,
+   "lon": -105.6878,
+   "ours_sun": 0.2319,
+   "nasa_sun": 0.2312,
+   "ours_earth": 0.3117,
+   "nasa_earth": 0.3109
+  },
+  {
+   "name": "random 54",
+   "site": false,
+   "lat": -86.4826,
+   "lon": 87.9991,
+   "ours_sun": 0.1642,
+   "nasa_sun": 0.1399,
+   "ours_earth": 0.2218,
+   "nasa_earth": 0.2191
+  },
+  {
+   "name": "random 55",
+   "site": false,
+   "lat": -86.5721,
+   "lon": 97.7533,
+   "ours_sun": 0.2802,
+   "nasa_sun": 0.2767,
+   "ours_earth": 0.2017,
+   "nasa_earth": 0.2043
+  },
+  {
+   "name": "random 56",
+   "site": false,
+   "lat": -85.8902,
+   "lon": 97.2869,
+   "ours_sun": 0.3941,
+   "nasa_sun": 0.3728,
+   "ours_earth": 0.4909,
+   "nasa_earth": 0.4902
+  },
+  {
+   "name": "random 57",
+   "site": false,
+   "lat": -86.2013,
+   "lon": -151.7858,
+   "ours_sun": 0.2584,
+   "nasa_sun": 0.2603,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 58",
+   "site": false,
+   "lat": -86.7737,
+   "lon": -103.6299,
+   "ours_sun": 0.241,
+   "nasa_sun": 0.2348,
+   "ours_earth": 0.3315,
+   "nasa_earth": 0.3173
+  },
+  {
+   "name": "random 59",
+   "site": false,
+   "lat": -89.7655,
+   "lon": 142.3386,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 60",
+   "site": false,
+   "lat": -85.5446,
+   "lon": 136.5955,
+   "ours_sun": 0.355,
+   "nasa_sun": 0.3691,
+   "ours_earth": 0.0487,
+   "nasa_earth": 0.076
+  },
+  {
+   "name": "random 61",
+   "site": false,
+   "lat": -86.3965,
+   "lon": -105.9938,
+   "ours_sun": 0.2816,
+   "nasa_sun": 0.2793,
+   "ours_earth": 0.4589,
+   "nasa_earth": 0.4576
+  },
+  {
+   "name": "random 62",
+   "site": false,
+   "lat": -87.1422,
+   "lon": 18.4952,
+   "ours_sun": 0.0076,
+   "nasa_sun": 0.0076,
+   "ours_earth": 0.3958,
+   "nasa_earth": 0.3958
+  },
+  {
+   "name": "random 63",
+   "site": false,
+   "lat": -86.4645,
+   "lon": -85.434,
+   "ours_sun": 0.1772,
+   "nasa_sun": 0.1609,
+   "ours_earth": 0.4532,
+   "nasa_earth": 0.452
+  },
+  {
+   "name": "random 64",
+   "site": false,
+   "lat": -88.469,
+   "lon": -30.1375,
+   "ours_sun": 0.0896,
+   "nasa_sun": 0.0906,
+   "ours_earth": 0.3874,
+   "nasa_earth": 0.3902
+  },
+  {
+   "name": "random 65",
+   "site": false,
+   "lat": -85.2442,
+   "lon": -172.4599,
+   "ours_sun": 0.1562,
+   "nasa_sun": 0.1578,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 66",
+   "site": false,
+   "lat": -85.0257,
+   "lon": -78.5663,
+   "ours_sun": 0.343,
+   "nasa_sun": 0.3409,
+   "ours_earth": 0.0204,
+   "nasa_earth": 0.0139
+  },
+  {
+   "name": "random 67",
+   "site": false,
+   "lat": -88.7847,
+   "lon": -82.5549,
+   "ours_sun": 0.2017,
+   "nasa_sun": 0.2002,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 68",
+   "site": false,
+   "lat": -87.0069,
+   "lon": 150.887,
+   "ours_sun": 0.3527,
+   "nasa_sun": 0.3222,
+   "ours_earth": 0.2949,
+   "nasa_earth": 0.295
+  },
+  {
+   "name": "random 69",
+   "site": false,
+   "lat": -85.7279,
+   "lon": 31.6693,
+   "ours_sun": 0.1484,
+   "nasa_sun": 0.1482,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 70",
+   "site": false,
+   "lat": -87.1965,
+   "lon": -116.0941,
+   "ours_sun": 0.2335,
+   "nasa_sun": 0.229,
+   "ours_earth": 0.2653,
+   "nasa_earth": 0.2642
+  },
+  {
+   "name": "random 71",
+   "site": false,
+   "lat": -86.2348,
+   "lon": -26.0768,
+   "ours_sun": 0.3727,
+   "nasa_sun": 0.3793,
+   "ours_earth": 0.2986,
+   "nasa_earth": 0.3558
+  },
+  {
+   "name": "random 72",
+   "site": false,
+   "lat": -86.7726,
+   "lon": -2.543,
+   "ours_sun": 0.0371,
+   "nasa_sun": 0.0368,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 73",
+   "site": false,
+   "lat": -85.6006,
+   "lon": 49.4496,
+   "ours_sun": 0.0045,
+   "nasa_sun": 0.008,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0107
+  },
+  {
+   "name": "random 74",
+   "site": false,
+   "lat": -85.105,
+   "lon": 11.6812,
+   "ours_sun": 0.1354,
+   "nasa_sun": 0.1353,
+   "ours_earth": 0.551,
+   "nasa_earth": 0.5502
+  },
+  {
+   "name": "random 75",
+   "site": false,
+   "lat": -85.2873,
+   "lon": -28.4426,
+   "ours_sun": 0.3552,
+   "nasa_sun": 0.3547,
+   "ours_earth": 0.619,
+   "nasa_earth": 0.6179
+  },
+  {
+   "name": "random 76",
+   "site": false,
+   "lat": -86.06,
+   "lon": -68.1145,
+   "ours_sun": 0.2773,
+   "nasa_sun": 0.2791,
+   "ours_earth": 0.5516,
+   "nasa_earth": 0.5513
+  },
+  {
+   "name": "random 77",
+   "site": false,
+   "lat": -87.9967,
+   "lon": 26.9998,
+   "ours_sun": 0.0008,
+   "nasa_sun": 0.0007,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 78",
+   "site": false,
+   "lat": -85.1342,
+   "lon": 171.2995,
+   "ours_sun": 0.381,
+   "nasa_sun": 0.3758,
+   "ours_earth": 0.2782,
+   "nasa_earth": 0.2662
+  },
+  {
+   "name": "random 79",
+   "site": false,
+   "lat": -89.2253,
+   "lon": 19.0753,
+   "ours_sun": 0.2435,
+   "nasa_sun": 0.2373,
+   "ours_earth": 0.4999,
+   "nasa_earth": 0.4976
+  },
+  {
+   "name": "random 80",
+   "site": false,
+   "lat": -87.2712,
+   "lon": 139.3244,
+   "ours_sun": 0.0623,
+   "nasa_sun": 0.0612,
+   "ours_earth": 0.2962,
+   "nasa_earth": 0.2948
+  },
+  {
+   "name": "random 81",
+   "site": false,
+   "lat": -87.3459,
+   "lon": -174.5019,
+   "ours_sun": 0.3631,
+   "nasa_sun": 0.3628,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 82",
+   "site": false,
+   "lat": -85.9018,
+   "lon": -106.8849,
+   "ours_sun": 0.3111,
+   "nasa_sun": 0.3077,
+   "ours_earth": 0.5122,
+   "nasa_earth": 0.5111
+  },
+  {
+   "name": "random 83",
+   "site": false,
+   "lat": -86.5093,
+   "lon": 131.3165,
+   "ours_sun": 0.4378,
+   "nasa_sun": 0.4133,
+   "ours_earth": 0.2581,
+   "nasa_earth": 0.0745
+  },
+  {
+   "name": "random 84",
+   "site": false,
+   "lat": -88.4736,
+   "lon": 25.0102,
+   "ours_sun": 0.105,
+   "nasa_sun": 0.1046,
+   "ours_earth": 0.2356,
+   "nasa_earth": 0.2477
+  },
+  {
+   "name": "random 85",
+   "site": false,
+   "lat": -89.4246,
+   "lon": -4.4791,
+   "ours_sun": 0.031,
+   "nasa_sun": 0.0306,
+   "ours_earth": 0.3176,
+   "nasa_earth": 0.3153
+  },
+  {
+   "name": "random 86",
+   "site": false,
+   "lat": -86.1131,
+   "lon": -47.2305,
+   "ours_sun": 0.0564,
+   "nasa_sun": 0.0562,
+   "ours_earth": 0.4886,
+   "nasa_earth": 0.4873
+  },
+  {
+   "name": "random 87",
+   "site": false,
+   "lat": -86.4945,
+   "lon": -73.7043,
+   "ours_sun": 0.1722,
+   "nasa_sun": 0.1886,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0099
+  },
+  {
+   "name": "random 88",
+   "site": false,
+   "lat": -86.1225,
+   "lon": 64.3787,
+   "ours_sun": 0.1971,
+   "nasa_sun": 0.1967,
+   "ours_earth": 0.3738,
+   "nasa_earth": 0.3742
+  },
+  {
+   "name": "random 89",
+   "site": false,
+   "lat": -86.2449,
+   "lon": -48.3354,
+   "ours_sun": 0.2521,
+   "nasa_sun": 0.2486,
+   "ours_earth": 0.5386,
+   "nasa_earth": 0.5376
+  },
+  {
+   "name": "random 90",
+   "site": false,
+   "lat": -85.2818,
+   "lon": -23.3155,
+   "ours_sun": 0.4847,
+   "nasa_sun": 0.4736,
+   "ours_earth": 0.7882,
+   "nasa_earth": 0.8196
+  },
+  {
+   "name": "random 91",
+   "site": false,
+   "lat": -85.2084,
+   "lon": 99.6654,
+   "ours_sun": 0.2968,
+   "nasa_sun": 0.2972,
+   "ours_earth": 0.4487,
+   "nasa_earth": 0.4481
+  },
+  {
+   "name": "random 92",
+   "site": false,
+   "lat": -87.8293,
+   "lon": 160.6259,
+   "ours_sun": 0.2866,
+   "nasa_sun": 0.2863,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 93",
+   "site": false,
+   "lat": -85.1469,
+   "lon": 177.7165,
+   "ours_sun": 0.0335,
+   "nasa_sun": 0.0209,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 94",
+   "site": false,
+   "lat": -85.5624,
+   "lon": -5.4305,
+   "ours_sun": 0.3883,
+   "nasa_sun": 0.3866,
+   "ours_earth": 0.9208,
+   "nasa_earth": 0.9244
+  },
+  {
+   "name": "random 95",
+   "site": false,
+   "lat": -86.0031,
+   "lon": -130.2591,
+   "ours_sun": 0.211,
+   "nasa_sun": 0.1995,
+   "ours_earth": 0.3958,
+   "nasa_earth": 0.3805
+  },
+  {
+   "name": "random 96",
+   "site": false,
+   "lat": -85.9392,
+   "lon": -171.0275,
+   "ours_sun": 0.2808,
+   "nasa_sun": 0.2815,
+   "ours_earth": 0.1697,
+   "nasa_earth": 0.1663
+  },
+  {
+   "name": "random 97",
+   "site": false,
+   "lat": -86.3051,
+   "lon": -1.9236,
+   "ours_sun": 0.2474,
+   "nasa_sun": 0.2441,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 98",
+   "site": false,
+   "lat": -85.2113,
+   "lon": -152.5122,
+   "ours_sun": 0.3386,
+   "nasa_sun": 0.3385,
+   "ours_earth": 0.362,
+   "nasa_earth": 0.3076
+  },
+  {
+   "name": "random 99",
+   "site": false,
+   "lat": -87.5841,
+   "lon": -137.6233,
+   "ours_sun": 0.2556,
+   "nasa_sun": 0.2553,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 100",
+   "site": false,
+   "lat": -86.1292,
+   "lon": -95.4579,
+   "ours_sun": 0.3246,
+   "nasa_sun": 0.3314,
+   "ours_earth": 0.4178,
+   "nasa_earth": 0.4169
+  },
+  {
+   "name": "random 101",
+   "site": false,
+   "lat": -85.4883,
+   "lon": 177.1175,
+   "ours_sun": 0.2365,
+   "nasa_sun": 0.2344,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 102",
+   "site": false,
+   "lat": -88.1627,
+   "lon": -121.5977,
+   "ours_sun": 0.005,
+   "nasa_sun": 0.0049,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 103",
+   "site": false,
+   "lat": -86.0773,
+   "lon": -140.3524,
+   "ours_sun": 0.2698,
+   "nasa_sun": 0.2635,
+   "ours_earth": 0.2322,
+   "nasa_earth": 0.233
+  },
+  {
+   "name": "random 104",
+   "site": false,
+   "lat": -86.8262,
+   "lon": 149.7326,
+   "ours_sun": 0.2925,
+   "nasa_sun": 0.2891,
+   "ours_earth": 0.3489,
+   "nasa_earth": 0.3487
+  },
+  {
+   "name": "random 105",
+   "site": false,
+   "lat": -85.6239,
+   "lon": 43.9451,
+   "ours_sun": 0.1926,
+   "nasa_sun": 0.1923,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 106",
+   "site": false,
+   "lat": -88.6957,
+   "lon": 86.3643,
+   "ours_sun": 0.1845,
+   "nasa_sun": 0.1819,
+   "ours_earth": 0.5102,
+   "nasa_earth": 0.5092
+  },
+  {
+   "name": "random 107",
+   "site": false,
+   "lat": -86.1051,
+   "lon": -52.296,
+   "ours_sun": 0.1883,
+   "nasa_sun": 0.192,
+   "ours_earth": 0.5129,
+   "nasa_earth": 0.5121
+  },
+  {
+   "name": "random 108",
+   "site": false,
+   "lat": -85.3711,
+   "lon": 156.1797,
+   "ours_sun": 0.4012,
+   "nasa_sun": 0.4123,
+   "ours_earth": 0.0907,
+   "nasa_earth": 0.0977
+  },
+  {
+   "name": "random 109",
+   "site": false,
+   "lat": -86.0366,
+   "lon": 171.3962,
+   "ours_sun": 0.1483,
+   "nasa_sun": 0.1507,
+   "ours_earth": 0.179,
+   "nasa_earth": 0.1806
+  },
+  {
+   "name": "random 110",
+   "site": false,
+   "lat": -87.1651,
+   "lon": 21.0441,
+   "ours_sun": 0.0096,
+   "nasa_sun": 0.0094,
+   "ours_earth": 0.449,
+   "nasa_earth": 0.4482
+  },
+  {
+   "name": "random 111",
+   "site": false,
+   "lat": -85.951,
+   "lon": 175.2625,
+   "ours_sun": 0.1732,
+   "nasa_sun": 0.1725,
+   "ours_earth": 0.1147,
+   "nasa_earth": 0.0815
+  },
+  {
+   "name": "random 112",
+   "site": false,
+   "lat": -87.0919,
+   "lon": 2.086,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 113",
+   "site": false,
+   "lat": -85.9116,
+   "lon": -21.6935,
+   "ours_sun": 0.2068,
+   "nasa_sun": 0.1728,
+   "ours_earth": 0.3164,
+   "nasa_earth": 0.3132
+  },
+  {
+   "name": "random 114",
+   "site": false,
+   "lat": -88.2068,
+   "lon": 102.7562,
+   "ours_sun": 0.0372,
+   "nasa_sun": 0.0369,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 115",
+   "site": false,
+   "lat": -87.3535,
+   "lon": 51.9292,
+   "ours_sun": 0.0626,
+   "nasa_sun": 0.0624,
+   "ours_earth": 0.2274,
+   "nasa_earth": 0.2232
+  },
+  {
+   "name": "random 116",
+   "site": false,
+   "lat": -89.0905,
+   "lon": -107.8091,
+   "ours_sun": 0.3189,
+   "nasa_sun": 0.2491,
+   "ours_earth": 0.174,
+   "nasa_earth": 0.0538
+  },
+  {
+   "name": "random 117",
+   "site": false,
+   "lat": -88.5489,
+   "lon": 5.3781,
+   "ours_sun": 0.3629,
+   "nasa_sun": 0.3596,
+   "ours_earth": 0.4953,
+   "nasa_earth": 0.4949
+  },
+  {
+   "name": "random 118",
+   "site": false,
+   "lat": -86.2758,
+   "lon": -174.0746,
+   "ours_sun": 0.2188,
+   "nasa_sun": 0.2184,
+   "ours_earth": 0.1313,
+   "nasa_earth": 0.1346
+  },
+  {
+   "name": "random 119",
+   "site": false,
+   "lat": -87.5922,
+   "lon": 135.2375,
+   "ours_sun": 0.1155,
+   "nasa_sun": 0.1149,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 120",
+   "site": false,
+   "lat": -86.4079,
+   "lon": 15.2805,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.1921,
+   "nasa_earth": 0.1894
+  },
+  {
+   "name": "random 121",
+   "site": false,
+   "lat": -85.9393,
+   "lon": -163.3727,
+   "ours_sun": 0.0021,
+   "nasa_sun": 0.0061,
+   "ours_earth": 0.2245,
+   "nasa_earth": 0.2243
+  },
+  {
+   "name": "random 122",
+   "site": false,
+   "lat": -85.3065,
+   "lon": 157.5932,
+   "ours_sun": 0.4548,
+   "nasa_sun": 0.4522,
+   "ours_earth": 0.0124,
+   "nasa_earth": 0.0108
+  },
+  {
+   "name": "random 123",
+   "site": false,
+   "lat": -87.0202,
+   "lon": 179.7971,
+   "ours_sun": 0.356,
+   "nasa_sun": 0.3,
+   "ours_earth": 0.0389,
+   "nasa_earth": 0.0117
+  },
+  {
+   "name": "random 124",
+   "site": false,
+   "lat": -87.1768,
+   "lon": 85.43,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.1299,
+   "nasa_earth": 0.1289
+  },
+  {
+   "name": "random 125",
+   "site": false,
+   "lat": -87.1991,
+   "lon": -24.7236,
+   "ours_sun": 0.3349,
+   "nasa_sun": 0.2974,
+   "ours_earth": 0.2769,
+   "nasa_earth": 0.3239
+  },
+  {
+   "name": "random 126",
+   "site": false,
+   "lat": -88.2814,
+   "lon": 32.9109,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.1644,
+   "nasa_earth": 0.1655
+  },
+  {
+   "name": "random 127",
+   "site": false,
+   "lat": -85.9282,
+   "lon": -176.3165,
+   "ours_sun": 0.0865,
+   "nasa_sun": 0.1002,
+   "ours_earth": 0.2376,
+   "nasa_earth": 0.2393
+  },
+  {
+   "name": "random 128",
+   "site": false,
+   "lat": -85.4733,
+   "lon": -140.9582,
+   "ours_sun": 0.3325,
+   "nasa_sun": 0.3141,
+   "ours_earth": 0.3092,
+   "nasa_earth": 0.3077
+  },
+  {
+   "name": "random 129",
+   "site": false,
+   "lat": -86.561,
+   "lon": -60.8402,
+   "ours_sun": 0.2977,
+   "nasa_sun": 0.2708,
+   "ours_earth": 0.5887,
+   "nasa_earth": 0.5423
+  },
+  {
+   "name": "random 130",
+   "site": false,
+   "lat": -86.264,
+   "lon": -31.9433,
+   "ours_sun": 0.3641,
+   "nasa_sun": 0.3521,
+   "ours_earth": 0.45,
+   "nasa_earth": 0.391
+  },
+  {
+   "name": "random 131",
+   "site": false,
+   "lat": -85.1049,
+   "lon": 92.1416,
+   "ours_sun": 0.3067,
+   "nasa_sun": 0.3075,
+   "ours_earth": 0.382,
+   "nasa_earth": 0.3818
+  },
+  {
+   "name": "random 132",
+   "site": false,
+   "lat": -85.82,
+   "lon": -118.5373,
+   "ours_sun": 0.2559,
+   "nasa_sun": 0.2553,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 133",
+   "site": false,
+   "lat": -85.6843,
+   "lon": -138.2023,
+   "ours_sun": 0.2705,
+   "nasa_sun": 0.272,
+   "ours_earth": 0.3211,
+   "nasa_earth": 0.3189
+  },
+  {
+   "name": "random 134",
+   "site": false,
+   "lat": -85.2844,
+   "lon": 71.087,
+   "ours_sun": 0.2871,
+   "nasa_sun": 0.2873,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 135",
+   "site": false,
+   "lat": -87.6762,
+   "lon": 139.6916,
+   "ours_sun": 0.3746,
+   "nasa_sun": 0.3659,
+   "ours_earth": 0.5297,
+   "nasa_earth": 0.5286
+  },
+  {
+   "name": "random 136",
+   "site": false,
+   "lat": -85.9684,
+   "lon": 136.6802,
+   "ours_sun": 0.46,
+   "nasa_sun": 0.456,
+   "ours_earth": 0.2144,
+   "nasa_earth": 0.1851
+  },
+  {
+   "name": "random 137",
+   "site": false,
+   "lat": -85.7651,
+   "lon": 87.0898,
+   "ours_sun": 0.3897,
+   "nasa_sun": 0.3693,
+   "ours_earth": 0.4268,
+   "nasa_earth": 0.4267
+  },
+  {
+   "name": "random 138",
+   "site": false,
+   "lat": -85.4114,
+   "lon": 174.0842,
+   "ours_sun": 0.3224,
+   "nasa_sun": 0.308,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 139",
+   "site": false,
+   "lat": -87.0678,
+   "lon": 7.9532,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 140",
+   "site": false,
+   "lat": -85.8504,
+   "lon": 98.8088,
+   "ours_sun": 0.2791,
+   "nasa_sun": 0.2789,
+   "ours_earth": 0.1928,
+   "nasa_earth": 0.2092
+  },
+  {
+   "name": "random 141",
+   "site": false,
+   "lat": -86.1128,
+   "lon": -29.8161,
+   "ours_sun": 0.3411,
+   "nasa_sun": 0.343,
+   "ours_earth": 0.3794,
+   "nasa_earth": 0.3928
+  },
+  {
+   "name": "random 142",
+   "site": false,
+   "lat": -86.8006,
+   "lon": -52.828,
+   "ours_sun": 0.2632,
+   "nasa_sun": 0.2622,
+   "ours_earth": 0.6221,
+   "nasa_earth": 0.6212
+  },
+  {
+   "name": "random 143",
+   "site": false,
+   "lat": -88.4032,
+   "lon": 147.896,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.1307,
+   "nasa_earth": 0.1307
+  },
+  {
+   "name": "random 144",
+   "site": false,
+   "lat": -87.0286,
+   "lon": -24.9455,
+   "ours_sun": 0.4383,
+   "nasa_sun": 0.4302,
+   "ours_earth": 0.435,
+   "nasa_earth": 0.4334
+  },
+  {
+   "name": "random 145",
+   "site": false,
+   "lat": -85.0922,
+   "lon": 88.7296,
+   "ours_sun": 0.2633,
+   "nasa_sun": 0.2201,
+   "ours_earth": 0.2026,
+   "nasa_earth": 0.2228
+  },
+  {
+   "name": "random 146",
+   "site": false,
+   "lat": -87.6723,
+   "lon": -1.0719,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.1883,
+   "nasa_earth": 0.1869
+  },
+  {
+   "name": "random 147",
+   "site": false,
+   "lat": -88.3123,
+   "lon": -139.6033,
+   "ours_sun": 0.0,
+   "nasa_sun": 0.0,
+   "ours_earth": 0.0309,
+   "nasa_earth": 0.0284
+  },
+  {
+   "name": "random 148",
+   "site": false,
+   "lat": -86.9677,
+   "lon": -134.3246,
+   "ours_sun": 0.1742,
+   "nasa_sun": 0.1738,
+   "ours_earth": 0.0242,
+   "nasa_earth": 0.0272
+  },
+  {
+   "name": "random 149",
+   "site": false,
+   "lat": -88.4088,
+   "lon": 3.6441,
+   "ours_sun": 0.1353,
+   "nasa_sun": 0.1337,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  },
+  {
+   "name": "random 150",
+   "site": false,
+   "lat": -87.4146,
+   "lon": 74.764,
+   "ours_sun": 0.0059,
+   "nasa_sun": 0.0056,
+   "ours_earth": 0.0,
+   "nasa_earth": 0.0
+  }
+ ]
+}

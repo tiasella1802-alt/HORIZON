@@ -1,0 +1,11 @@
+{
+ "what": "Your-own-spot results (computed in the browser from 80 m LOLA tiles within 12 km plus a 480 m map beyond) compared with the full-resolution pipeline at the listed sites, 2027-2028 hourly",
+ "measured": "2026-11-14, in the web app",
+ "sites_with_tiles": 9,
+ "median_abs_sun_diff_pts": 3.0,
+ "median_abs_earth_diff_pts": 0.8,
+ "median_verdict_agreement_pct": 97.7,
+ "min_verdict_agreement_pct": 93.5,
+ "outside_tiles": {"site": "Mons Cabeus (83.6 S)", "verdict_agreement_pct": 87.6},
+ "worst_earth_case": {"site": "Lunar South Pole", "full": 4.1, "browser": 30.4, "why": "the pole sits on a slope steeper than 80 m terrain can show"}
+}
