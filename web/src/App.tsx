@@ -116,6 +116,10 @@ export default function App() {
   const site = sites[focus];
   const i0 = site ? hourIndex(site, landing) : 0;
   useEffect(() => setCursor(i0), [i0]);
+  // Past landings replay their whole story window (Chandrayaan-3: 32 days, so its sunset on day 12 shows);
+  // planning uses the mission length from Lander settings.
+  const replay = index?.missions?.find((m) => m.id === focus);
+  const playHours = replay && site ? Math.max(24, Math.min(replay.view_days * 24, site.n - i0)) : hours;
 
   // Keep the current plan in the URL so it can be shared.
   useEffect(() => {
@@ -279,7 +283,7 @@ export default function App() {
   return (
     <div className={`app map-ui ${drawer ? "drawer-open" : ""} ${tour ? "touring" : ""}`}>
       {inRange ? (
-        <Terrain3D site={site} vis={vis[focus]} mast={mast} i0={i0} hours={hours} cursor={cursor} onCursor={setCursor}
+        <Terrain3D site={site} vis={vis[focus]} mast={mast} i0={i0} hours={playHours} cursor={cursor} onCursor={setCursor}
           mode={mode} playing={playing} speed={speed} exag={1} lift={drawer && !sheetFull ? 0.2 : 0} />
       ) : (
         <div className="stage3d"><div className="three-msg">We don't have data for this date. Pick another landing date.</div></div>
@@ -416,7 +420,7 @@ export default function App() {
       <div className="view-tip">{mode === "overview" ? "Drag to turn · scroll to zoom" : "Drag to look around"}</div>
 
       {inRange && (
-        <TimeBar site={site} vis={vis[focus]} i0={i0} hours={hours} cursor={cursor} onCursor={setCursor}
+        <TimeBar site={site} vis={vis[focus]} i0={i0} hours={playHours} cursor={cursor} onCursor={setCursor}
           playing={playing} onPlaying={setPlaying} speed={speed} onSpeed={setSpeed} />
       )}
 
@@ -471,7 +475,7 @@ export default function App() {
                 {isMission(focus) && <p className="muted">Comparisons use the candidate sites; pick one in the search box first.</p>}
               </>
             )}
-            {drawer === "sky" && inRange && <Panorama site={site} vis={vis[focus]} mast={mast} i0={i0} hours={hours} cursor={cursor} />}
+            {drawer === "sky" && inRange && <Panorama site={site} vis={vis[focus]} mast={mast} i0={i0} hours={playHours} cursor={cursor} />}
             {drawer === "accuracy" && <Validation />}
           </div>
         </section>
