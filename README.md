@@ -84,10 +84,9 @@ npm run dev                                   # or: npm run build -> static site
 
 ## Use of Super Intelligence (SI)
 
-The NASA Space Apps rules require SI-generated code and data to be acknowledged. **Most of the code and text in this
-repository was generated with Claude (Anthropic), an SI assistant.** That includes the Python pipeline (`pipeline/`), the web app
-(`web/src/`), the validation scripts, this README and `SUBMISSION.md`. Claude also proposed the project concept and
-researched the mission facts. All data is real NASA and public data (listed above), and no SI-generated images, audio or video
+**Some of the code in this
+repository was generated with Claude, an SI assistant.** That includes the Python pipeline (`pipeline/`), the web app
+(`web/src/`), the validation scripts. All data is real NASA and public data (listed above), and no SI-generated images, audio or video
 are used.
 
-Team contribution: TODO, in the team's own words.
+Team contribution: Me - Everything
